@@ -1,0 +1,27 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+   --cor-principal: #f8b5d6;
+   --cor-secundaria:#fce4ce;
+   --cor-detalhes: #e91e63;
+   --cor-detalhes-escuros:#7b1fa2;
+   --light: #fff9fb;
+   --cor-texto:#4a2a3a;
+}
+
+body {
+    font-family: 'poppins' , sans-serif;
+    background-color: var(--light);
+    color: var(--cor-texto)
+    Line-height: 1.6;
+}
+
+.conteiner {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
